@@ -45,6 +45,10 @@ body{
 .link{
     font-size: 16px;
 }
+
+main{
+    color: #23272A;
+}
 /*------------
     HEADER
 ------------*/
@@ -157,16 +161,41 @@ h1{
 ------------*/
 
 .big-col, .small-col{
-    height: 600px;
-    border: 2px dashed black;
+    height: 450px;
 }
 
 .big-col{
-    width: 60%;
+    width: 70%;
+}
+
+.first.container > .big-col{
+    background-image: url(../img/item1.svg);
+    background-repeat: no-repeat;
+}
+
+.second.container > .big-col{
+    background-image: url(../img/item2.svg);
+    background-repeat: no-repeat;
+}
+
+.third.container > .big-col{
+    background-image: url(../img/item3.svg);
+    background-repeat: no-repeat;
 }
 
 .small-col{
-    width: 40%;
+    width: 30%;
+}
+
+h2{
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 1.2;
+    margin: 20px 0;
+}
+
+.small-col p{
+    font-size: 900;
 }
 
 .gray-bg{
